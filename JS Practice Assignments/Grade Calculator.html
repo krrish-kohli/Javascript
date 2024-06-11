@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grade Calculator
+        </title>
+        <script>
+            var grade1 = parseInt(prompt("Enter marks for Maths"));
+            var grade2 = parseInt(prompt("Enter marks for Physics"));
+            var grade3 = parseInt(prompt("Enter marks for Chemistry"));
+
+            function avg(){
+                var sum_grade = grade1 + grade2 + grade3;
+                var tgrade = sum_grade / 3;
+                return tgrade;
+            }
+
+            function grade(){
+                if(avg() < 60){
+                    document.write("Grade F");
+                }
+                else if(avg() >= 60 & avg() < 70){
+                    document.write("Grade D");
+                }
+                else if(avg() >= 70 & avg() < 80){
+                    document.write("Grade C");
+                }
+                else if(avg() >= 80 & avg() < 90){
+                    document.write("Grade B");
+                }
+                else{
+                    document.write("Grade A");
+                }
+            }
+
+            grade();
+            
+
+        </script>
+    </head>
+</html>
