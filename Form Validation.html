@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Validation
+        </title>
+        <script>
+            function validate(){
+                var exp1 = /^([A-Za-z0-9_\-\.])+@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;;
+                var em = document.myform.email.value;
+                var result1 = exp1.test(em);
+                if(em==''){
+                    alert("email cannot be empty.");
+                    document.myform.email.focus();
+                    return false;
+                }else if(result1 == false){
+                    alert("enter correct email.");
+                    document.myform.email.focus();
+                    return false;
+                }
+            
+                var exp2 = /^([A-za-z0-9]{5,8})$/;
+                var pw = document.myform.password.value;
+                var result2 = exp2.test(pw);
+                if(pw==''){
+                    alert("password cannot be empty.");
+                    document.myform.password.focus();
+                    return false;
+                }else if(result2 == false){
+                    alert("enter a password between 5-8 alphabets or numbers");
+                    document.myform.password.focus();
+                    return false;
+                }
+                
+                var exp3 = /^[0-9]{10}$/;
+                var ph = document.myform.phone.value;
+                var result3 = exp3.test(ph);
+                if(ph==''){
+                    alert("phone cannot be empty.");
+                    document.myform.phone.focus();
+                    return false;
+                }else if(result3 == false){
+                    alert("enter correct 10 digit phone number.");
+                    document.myform.phone.focus();
+                    return false;
+                }
+
+                if(result1 && result2 && result3){
+                    alert("success");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" onsubmit="return validate()">
+            Email: <input type="text" name="email">
+            Password: <input type="password" name="password">
+            Phone: <input type="number" name="phone">
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Adding and Removing Prices
+        </title>
+        <script>
+            
+            function handleRemove(){
+                var parent = document.getElementById("div1");
+                var child1 = document.getElementById("p1");
+                var child2 = document.getElementById("p2");
+                parent.removeChild(child2);
+            }
+            function handleAdd(){
+                var parent = document.getElementById("div1");
+                var child3 = document.createElement("p");
+                var newchild = document.createTextNode("TV - 3000$");
+                child3.appendChild(newchild);
+                parent.appendChild(child3);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="div1" >
+            <p id="p1">
+                Laptop - 1000$
+            </p>
+            <p id="p2">
+                Cellphone - 300$
+            </p>
+        </div>
+        <input type="button" value="remove" onclick="handleRemove()">
+        <input type="button" value="add" onclick="handleAdd()">
+    </body>
+</html>

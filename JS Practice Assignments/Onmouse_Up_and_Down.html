@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Onmouse Up and Down
+        </title>
+    </head>
+    <body>
+        <script>
+            function handleOnMouseDownEvent(y){
+                y.style.color = "yellow";
+                y.style.backgroundColor = "blue";
+                y.innerHTML = "MOUSEDOWN";
+            }
+            function handleOnMouseUpEvent(x){
+                x.style.color = "red";
+                x.style.backgroundColor = "yellow";
+                x.innerHTML = "MOUSEUP";
+            }
+        </script>
+    
+    
+        <marquee onmouseover="handleOnMouseDownEvent(this)" onmouseout="handleOnMouseUpEvent(this)">Move Up/Move</marquee>
+        </Down>
+    </body>
+</html>

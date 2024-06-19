@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Discounted Products
+        </title>
+        <script>
+
+            function Product(ID, Name, Description, Price){
+                this.ID = ID;
+                this.Name = Name;
+                this.Description = Description;
+                this.Price = Price;
+
+                this.displayProductDetails = function(){
+                    var name = this.Name;
+                    var description = this.Description;
+                    var disc_price = this.calculateDisc();
+                    document.write(name+" "+"(");
+                    document.write(description+")"+"-")
+                    document.write("$"+disc_price+"<br/>");
+                };
+
+                this.calculateDisc = function(){
+                    var percentage = 30;
+                    var discounted_price = this.Price - ((percentage/100)*this.Price);
+                    return(discounted_price);
+                };
+            }
+
+            var product1 = new Product("iOS 18", "IPhone", "New IPhone with iOS 18", 900);
+            var product2 = new Product("Samsung", "TV", "Samsung TV with all the latest technology", 1500);
+            var product3 = new Product("Series 10", "Apple Watch", "New & better Apple Watch series 10", 500);
+
+            product1.displayProductDetails();
+            product2.displayProductDetails();
+            product3.displayProductDetails();
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
