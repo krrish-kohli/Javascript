@@ -53,6 +53,16 @@ File: [`HTML Forms`](https://krrish-kohli.github.io/Javascript/HTML%20Forms/)
   - CSS styling to display inputs as blocks with appropriate margins.
   - JavaScript event handling using `preventDefault()` and `console.log()` to output form values.
 
+## Like Button Project  
+
+File: [`like button/index.html`](https://krrish-kohli.github.io/Javascript/Like%20Button/)
+
+- **Description**: Interactive like button project where users can like an image post.
+- **Features**:
+  - Click button to increment like count.
+  - Double-tap the image to also add likes.
+  - Simple social media-style layout with CSS and JavaScript event listeners.
+
 ## JavaScript Practice Assignments Folder
 
 ### Adding and Removing Prices
