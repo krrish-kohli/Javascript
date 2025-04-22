@@ -22,6 +22,37 @@ File: [`form validation.html`](https://krrish-kohli.github.io/Javascript/Form%20
   - Password length and character validation.
   - Phone number format validation.
 
+## Animations
+
+File: [`Animations`](https://krrish-kohli.github.io/Javascript/Animations/)
+
+- **Description**: Implements a parallax scrolling effect to create an immersive, depth-filled webpage.
+- **Features**:
+  - Moves background, bird, forest, foliage, and text at different rates based on scroll position.
+  - Layers elements correctly using CSS `z-index`.
+  - Optional color overlay via `::before` pseudo-element and `mix-blend-mode`.
+  - Responsive full-screen section setup with `position: relative/absolute` and viewport height units.
+
+## Form Validation 2.0
+
+File: [`Form Validation 2.0`](https://krrish-kohli.github.io/Javascript/Form%20Validation%202.0/)
+
+- **Description**: Checks for empty form fields before submission using JavaScript loops and conditionals.
+- **Features**:
+  - Iterates through form elements with a `for` loop and `.elements.length`.
+  - Validates each input’s `.value` to detect empty fields.
+  - Prevents default submission and logs validation messages to the console.
+
+## HTML Forms
+
+File: [`HTML Forms`](https://krrish-kohli.github.io/Javascript/HTML%20Forms/)
+
+- **Description**: Builds an interactive form that captures Name, Song, and Artist inputs and responds on submission.
+- **Features**:
+  - Labeled input fields linked via `for` and `id` attributes.
+  - CSS styling to display inputs as blocks with appropriate margins.
+  - JavaScript event handling using `preventDefault()` and `console.log()` to output form values.
+
 ## JavaScript Practice Assignments Folder
 
 ### Adding and Removing Prices
