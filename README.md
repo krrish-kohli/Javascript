@@ -63,6 +63,18 @@ File: [`like button/index.html`](https://krrish-kohli.github.io/Javascript/Like%
   - Double-tap the image to also add likes.
   - Simple social media-style layout with CSS and JavaScript event listeners.
 
+## Veteran's Awareness Event
+
+File: [`veterans awareness event`](https://krrish-kohli.github.io/Javascript/Veterans%20Awareness%20Event/)
+
+- **Description**: A responsive RSVP web application for the Veteran's Awareness Event, built with HTML, CSS, and JavaScript.
+- **Features**:
+  - Toggle between light and dark modes using a button.
+  - Validates form fields (name, phone, email, hometown) before submission.
+  - Dynamically appends RSVP submissions to the participant list.
+  - Displays a personalized confirmation modal after RSVP submission.
+  - Includes simple animation within the modal using JavaScript.
+
 ## JavaScript Practice Assignments Folder
 
 ### Adding and Removing Prices
