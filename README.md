@@ -65,7 +65,7 @@ File: [`Like Button`](https://krrish-kohli.github.io/Javascript/Like%20Button/)
 
 ## Veteran's Awareness Event
 
-File: [`veterans awareness event`](https://krrish-kohli.github.io/Javascript/Veteran's%20Awareness%20Event/)
+File: [`Veteran's Awareness Event`](https://krrish-kohli.github.io/Javascript/Veteran's%20Awareness%20Event/)
 
 - **Description**: A responsive RSVP web application for the Veteran's Awareness Event, built with HTML, CSS, and JavaScript.
 - **Features**:
