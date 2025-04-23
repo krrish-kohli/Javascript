@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>
+            Veterans Awareness Event
+        </title>
+        <link rel="icon" href="./img/logo.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4]         
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="navbar">
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><button id="theme-button">Toggle Dark Mode</button></li>
+            </ul>
+        </div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <div class="header-container">
+            <div class="header-item">
+              <img id="header-img" src="./img/veteran.png" height="300px" width="250px" />
+            </div>
+            <div class="header-item">
+              <h1>Honoring Heroes: Veterans Awareness Event</h1>
+              <h3>Honor.Connect.Celebrate.</h3>
+              <button type="button" class="header-button">Learn More</button>
+              <button type="button" class="header-button">Join Us</button>
+            </div>
+          </div>
+
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="about">About the Event</h2>
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/XpAjdfI-iso" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allowfullscreen>
+        </iframe>
+        <p>The Veterans Awareness Event is a heartfelt initiative dedicated to honoring and supporting the brave men and women who have served in the U.S. Army. This event aims to raise awareness about the sacrifices, challenges, and achievements of veterans while fostering a strong sense of community and appreciation. Through this platform, veterans can connect, share their stories, access valuable resources, and participate in activities that celebrate their service. Join us in recognizing their courage, amplifying their voices, and ensuring their contributions are never forgotten. Together, we can make a meaningful difference in the lives of those who have given so much for our nation.</p>
+
+        <h3>Honoring Journeys, Building Futures...</h3>
+        <h4>Join us in honoring the past, celebrating the present, and shaping the future for our veterans.</h4>
+        <ul>
+            <li> <b>Celebrate Courage:</b> <i>Honor the bravery and sacrifices of U.S. Army veterans through heartfelt storytelling and shared experiences.</i></li>
+            <li> <b>Build Connections:</b> <i>Connect with a vibrant community of veterans, supporters, and organizations working together to make a difference.</i></li>
+            <li> <b>Access Resources:</b> <i>Explore valuable tools, programs, and opportunities designed to support veterans and their families.</i></li>
+        </ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="schedule">Event Schedule</h2>
+
+        <img alt="Veterans in uniform engaging in a formal ceremony, saluting a senior officer." src="./img/friday.png" height="250px" width="200px"/>
+        <h3>Friday Night - Welcome & Storytelling</h3>
+        <p>Kick off the event by meeting fellow veterans and supporters, sharing stories, and discussing the importance of honoring our heroes</p>
+            
+        <img alt="A group of veterans sitting together, sharing stories and engaging in conversation." src="./img/saturday.jpg" height="200px" width="250px"/>
+        <h3>Saturday - Awareness & Celebration Day</h3>
+        <p>A full day of panel discussions, workshops, and activities to raise awareness, foster connections, and celebrate the legacy of our veterans.</p>
+
+        <img alt="A community gathering with veterans and supporters, decorated with patriotic balloons." src="./img/sunday.png" height="200px" width="250px"/>
+        <h3>Sunday - Community Outreach & Support Fair</h3>
+        <p>Wrap up the event by exploring resources, connecting with organizations, and learning how to continue supporting veterans in your community.</p>
+
+        <!-- rsvp
+
+        Purpose:
+        - Section for users to sign up for the event
+        - Contains a form for users to input their information, 
+        and a list of other users who have signed up
+
+        When To Modify:
+        - [ ] Project 6 (REQUIRED FEATURE) 
+        - [ ] Project 6 (STRETCH FEATURE) 
+        - [ ] Any time after
+        --> 
+        <div id="rsvp">
+            <h2>RSVP</h2>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <!-- info goes here -->
+                     <p>Join us in honoring the brave men and women who have served our country. Sign up today to attend our Veterans Appreciation Event — a day of remembrance, celebration, and community. Everyone is welcome to come show their support!</p>
+                </div>
+                <div class="rsvp-participants">
+                    <p>🎖️ Samuel from Texas has RSVP'd.</p>
+                    <p>🎖️ Amy from New York has RSVP'd.</p>
+                    <p>🎖️ Teresa from Montana has RSVP'd.</p>
+                </div>
+            </div>
+
+            <!--- Sign RSVP Form --->
+            <div class="form-container">
+                <form id="rsvp-form" title="rsvp-form">
+                    <!-- form inputs go here -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone">
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="h_state">Home State:</label>
+                    <input type="text" id="h_state" name="h_state">
+                </form>
+                <!-- Submit button -->
+                <button id="rsvp-button" type="submit">Submit RSVP</button>
+            </div>      
+        </div>
+
+
+        <!-- success modal
+
+        Purpose:
+        - Modal that appears when a user successfully signs up for the event
+        - Contains a personalized message and image
+
+        When To Modify:
+        - [ ] Project 9 (REQUIRED FEATURE)
+        - [ ] Project 9 (STRETCH FEATURE) 
+        - [ ] Any time after
+        --> 
+
+        <div id="success-modal" class="modal">
+            <div class="modal-container">
+                <div id="modal-item">
+                    <p id="modal-text">You have now officially registered for the Veteran's Awareness Event</p>
+                </div>
+                <div id="modal-item">
+                    <img src="./img/eagle.png" id="modal-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="links">Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://en.wikipedia.org/wiki/Veterans_Day">
+            <article>
+                <h3 class="footer-link">Read about Veteran's day on wikipedia</h3>
+                <p class="footer-link">Discover the origins, traditions, and importance of Veterans Day by visiting its Wikipedia page.</p>
+            </article>
+        </a>
+        <a class="block" href="https://www.reddit.com/r/NoStupidQuestions/comments/1cd9swq/why_do_americans_celebrate_veterans_day/">
+            <article>
+                <h3 class="footer-link">Check out this Reddit discussion on why Americans celebrate Veterans Day.</h3>
+                <p class="footer-link">See what people are saying about the meaning of Veterans Day in this Reddit discussion.</p>
+            </article>
+        </a>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <div class="footer">
+            <a href="https://department.va.gov/veterans-day/history-of-veterans-day/">Learn More</a>
+            <a href="mailto: krrishkohli15@gmail.com">/ Email us</a>
+        </div>
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+        <script src="index.js"></script>
+    </body>
+</html>
