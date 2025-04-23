@@ -152,6 +152,6 @@ const animateImage = () => {
     rotateFactor = 0;
   }
 
-  modalImage.style.transform = `rotate(${scaleFactor}deg)`;
+  modalImage.style.transform = `rotate(${rotateFactor}deg)`;
 }
 
