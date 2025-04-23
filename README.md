@@ -4,7 +4,7 @@ This repository contains various JavaScript practice assignments covering differ
 
 ## Dark Mode Toggle
 
-File: [`dark mode toggle.html`](https://krrish-kohli.github.io/Javascript/Dark%20Mode%20Toggle.html)
+File: [`Dark Mode Toggle`](https://krrish-kohli.github.io/Javascript/Dark%20Mode%20Toggle.html)
 
 - **Description**: Implements a dark mode toggle switch using HTML, CSS, and JavaScript.
 - **Features**:
@@ -14,7 +14,7 @@ File: [`dark mode toggle.html`](https://krrish-kohli.github.io/Javascript/Dark%2
 
 ## Form Validation
 
-File: [`form validation.html`](https://krrish-kohli.github.io/Javascript/Form%20Validation)
+File: [`Form Validation`](https://krrish-kohli.github.io/Javascript/Form%20Validation)
 
 - **Description**: Validates email, password, and phone number inputs using JavaScript.
 - **Features**:
@@ -55,7 +55,7 @@ File: [`HTML Forms`](https://krrish-kohli.github.io/Javascript/HTML%20Forms/)
 
 ## Like Button Project  
 
-File: [`like button/index.html`](https://krrish-kohli.github.io/Javascript/Like%20Button/)
+File: [`Like Button`](https://krrish-kohli.github.io/Javascript/Like%20Button/)
 
 - **Description**: Interactive like button project where users can like an image post.
 - **Features**:
@@ -65,7 +65,7 @@ File: [`like button/index.html`](https://krrish-kohli.github.io/Javascript/Like%
 
 ## Veteran's Awareness Event
 
-File: [`veterans awareness event`](https://krrish-kohli.github.io/Javascript/Veterans%20Awareness%20Event/)
+File: [`veterans awareness event`](https://krrish-kohli.github.io/Javascript/Veteran's%20Awareness%20Event/)
 
 - **Description**: A responsive RSVP web application for the Veteran's Awareness Event, built with HTML, CSS, and JavaScript.
 - **Features**:
